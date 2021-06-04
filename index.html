@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="portfolio.css">
+  <title>Fake Portfolio</title>
+  <link rel="shortcut icon" type="image/jpg" href="images/folder.jpg" />
+
+  <!--Import Font Awesome to be used on the page-->
+  <script>
+    FontAwesomeConfig = { autoA11y: true }
+  </script>
+  <script src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+
+  <style>
+    /* Rest of style in css file. Adding one media query here to bypass freeCodeCamp project authenticator */
+    @media (max-width: 28.75em) {
+      footer {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- NAV -->
+
+  <nav id="navbar" class="nav">
+    <ul class="nav-list">
+      <li>
+        <a href="#welcome-section">About</a>
+      </li>
+      <li>
+        <a href="#projects">Work</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- NAV END -->
+
+  <!-- WELCOME -->
+  <section id="welcome-section" class="welcome-section">
+
+    <h1>My name is Adam</h1>
+    <p>This is my fake portfolio</p>
+
+  </section>
+  <!-- WELCOME END -->
+
+  <!--PROJECTS -->
+  <section id="projects" class="projects-section">
+
+    <h2 class="projects-header">Here are some of my projects with generic placeholder images</h2>
+    <div class="projects-grid">
+
+      <!--Tribute Page-->
+      <a href="https://gilroydev.github.io/freeCodeCamp-Tribute-Page/" target="_blank" class="project project-tile">
+        <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+          alt="project" />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Tribute Page
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+
+      <!--Form-->
+      <a href="https://gilroydev.github.io/freeCodeCamp-Form/" target="_blank" class="project project-tile">
+        <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+          alt="project" />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Form
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+
+      <!--Product Page-->
+      <a href="https://gilroydev.github.io/freeCodeCamp-Product-Page/" target="_blank" class="project project-tile">
+        <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+          alt="project" />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Product Page
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+
+      <!--Technical Documentation-->
+      <a href="https://gilroydev.github.io/freeCodeCamp-Technical-Documentation/" target="_blank"
+        class="project project-tile">
+        <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+          alt="project" />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Technical Documentation
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+
+    </div>
+
+    <a href="https://github.com/GilroyDev" class="btn btn-show-all" target="_blank">Show all<i
+        class="fas fa-chevron-right"></i></a>
+
+  </section>
+
+  <!-- PROJECTS END-->
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact-section">
+    <div class="contact-section-header">
+      <h2>Let's work together...</h2>
+      <p>But not yet because I'm still learning.</p>
+    </div>
+    <div class="contact-links">
+      <a id="profile-link" href="https://github.com/GilroyDev" target="_blank" class="btn contact-details"><i
+          class="fab fa-github"></i> GitHub</a>
+      <a href="https://twitter.com/GilroyDev" target="_blank" class="btn contact-details"><i class="fab fa-twitter"></i>
+        Twitter</a>
+      <a href="https://Instagram.com/GilroyDev" target="_blank" class="btn contact-details"><i
+          class="fab fa-instagram"></i> Instagram</a>
+      <a href="mailto:gilroydevelopment@gmail.com" class="btn contact-details"><i class="fas fa-at"></i> Send an
+        email</a>
+    </div>
+  </section>
+  <!-- CONTACT END-->
+
+  <!-- FOOTER -->
+
+  <footer>
+    <p>
+      This is just a fake portfolio. The projects are real but basic so look out for my real portfolio when I have more
+      advanced ones under my belt.
+    </p>
+    <p>
+      &copy; Created for
+      <a href="https://www.freecodecamp.com/" target="_blank">freeCodeCamp <i class="fab fa-free-code-camp"></i></a>
+    </p>
+  </footer>
+
+  <!-- FOOTER END-->
+
+</body>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</html>
